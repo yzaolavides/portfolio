@@ -5,7 +5,7 @@
         <div class="navbar">
 			<div class="content">
 				<div style="display: flex; padding: 1rem 0 1rem 0;">
-					<a href="/" style="text-decoration: none"><span class="logo">yzabel olavides</span></a>
+					<a href="#" style="text-decoration: none"><span class="logo">yzabel olavides</span></a>
 					<button class="dropdown" onclick={dropMenu}><i class="fa-solid fa-bars"></i></button>
 				</div>
 				<div class="links" class:closed={is_navbar_closed}>

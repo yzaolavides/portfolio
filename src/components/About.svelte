@@ -20,7 +20,7 @@
 <div class="p-7 lg:p-30 flex flex-col md:flex-row gap-12 px-6 py-16">
   <!-- Left: Title -->
   <div class="md:w-2/5">
-    <h2 class="text-3xl font-bold sticky top-8">Experience</h2>
+    <h2 class="text-3xl font-light sticky top-8">Experience</h2>
   </div>
 
   <!-- Right: Accordion -->
