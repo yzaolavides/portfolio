@@ -4,12 +4,12 @@
 	let is_navbar_closed = $state(true);
 	function dropMenu(){is_navbar_closed = !is_navbar_closed}
 </script>
-    <div class="navbar z-10">
+    <div class="navbar z-30">
 	<!-- <ScrollProgress class="top-16" /> -->
 		<div class="content">
 			<div style="display: flex; padding: 1rem 0 1rem 0;">
 				<a href="#" style="text-decoration: none"><span class="logo">yzabel olavides</span></a>
-				<button class="dropdown" onclick={dropMenu}><i class="fa-solid fa-bars"></i></button>
+				<button title="dropdown" class="dropdown" onclick={dropMenu}><i class="fa-solid fa-bars"></i></button>
 			</div>
 			<div class="links items-center" class:closed={is_navbar_closed}>
 				<a href="#works" style="text-decoration: none"><p>Works</p></a>

@@ -55,14 +55,14 @@
     <span class="bbox" style="width: {$width}%; height: {$height}%;">
       <!-- handles only show when fully expanded -->
       {#if $width > 95}
-        <span class="handle tl"/>
-        <span class="handle tr"/>
-        <span class="handle bl"/>
-        <span class="handle br"/>
-        <span class="handle tm"/>
-        <span class="handle bm"/>
-        <span class="handle ml"/>
-        <span class="handle mr"/>
+        <span class="handle tl"></span>
+        <span class="handle tr"></span>
+        <span class="handle bl"></span>
+        <span class="handle br"></span>
+        <span class="handle tm"></span>
+        <span class="handle bm"></span>
+        <span class="handle ml"></span>
+        <span class="handle mr"></span>
       {/if}
     </span>
   </span> and <code class="inline-code sm:text-sm">{displayed}<span class="cursor">|</span></code>, making complex ideas clear for audiences that don't have time for noise.
