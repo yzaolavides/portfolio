@@ -66,7 +66,7 @@
   </span> and <code class="inline-code sm:text-sm">{displayed}<span class="cursor">|</span></code>, making complex ideas clear for audiences that don't have time for noise.
   <br>
 </p>
-<div class="font-normal text-lg text-neutral-800">
+<div class="font-normal text-lg text-neutral-800 hover:text-[#FF6D29] transition duration-300 ease-in-out">
     <br>
    <a href="#about" class="inline-flex items-center gap-2 ">
   More about my background and experiences

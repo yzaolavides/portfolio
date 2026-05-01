@@ -1,9 +1,11 @@
 <script>
 	// import { InteractiveHoverButton } from "$lib/components/magic/interactive-hover-button";
-    let is_navbar_closed = $state(true);
+    // import { ScrollProgress } from "$lib/components/magic/scroll-progress";
+	let is_navbar_closed = $state(true);
 	function dropMenu(){is_navbar_closed = !is_navbar_closed}
 </script>
     <div class="navbar z-10">
+	<!-- <ScrollProgress class="top-16" /> -->
 		<div class="content">
 			<div style="display: flex; padding: 1rem 0 1rem 0;">
 				<a href="#" style="text-decoration: none"><span class="logo">yzabel olavides</span></a>
