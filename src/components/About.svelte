@@ -19,10 +19,10 @@
       company: 'Reach',
       date: '2025',
       bullets: [
-        'Sole designer across five subsidiaries, with 250+ projects spanning presentations, reports, motion graphics, and social media.',
-        'Produced 190+ static and motion assets across LinkedIn, Instagram, X, and Facebook for corporate events, national holidays, and international campaigns.',
-        'Designed 30+ executive pitch decks supporting client proposals and business development.',
-        'Built the companys publication standards from scratch, from newsletter templates, reports, and handbooks.'
+        'Designed 250+ projects across social media, print, and events.',
+        'Maintained visual brand consistency of projects and communication assets across five subsidiaries.',
+        'Produced motion and static content for marketing campaigns, supporting client acquisition efforts.',
+        'Partnered with cross-functional teams to align creative output with business goals.'
       ]
     },
      {
@@ -31,8 +31,9 @@
       company: 'Cognith',
       date: '2024',
       bullets: [
-      'Built industry-specific UI kits in Figma, standardising components across multiple client-facing web and mobile interfaces.',
-      'Resolved front-end usability issues in a SaaS platform using Vue.js and Sass, and led a UI/UX case study with recommendations adopted by the product team.'
+      'Designed UI kits and web/mobile interfaces in Figma, improving design workflow efficiency.',
+      'Collaborated with developers and clients to deliver visually consistent, high-performing digital solutions.',
+      'Applied user-centered design principles to enhance usability and streamline user journeys.'
       ]
     },
     {
@@ -41,8 +42,8 @@
       company: 'BPOSeats',
       date: '2023',
       bullets: [
-      'Improved software user interaction flow by identifying and resolving front-end usability issues in the company’s SaaS platform using Vue.js and Sass.',
-      'Led an in-depth UI/UX case study to analyze and improve SaaS website, resulting in actionable design recommendations adopted by the product team.'
+      'Conducted a UI/UX case study and delivered actionable design improvements for a SaaS website.',
+      'Designed and developed a company culture webpage, optimized front-end performance with Vue.js and Sass'
       ]
     },
     {
@@ -51,15 +52,19 @@
       company: 'Freelance',
       date: '2020 – 2023',
       bullets: [
-      'Delivered branding and print materials across aviation, tech, and community sectors, including an ongoing HSE safety communications series for an aviation maintenance company.',
-      'Created motion and video content for corporate and live use, including an animated sponsor reel at Google DevFest Cebu and a nationwide onboarding video that scaled HR operations across a lending corporation’s branches'
+      'Created branding and marketing materials for diverse clients, ensuring cohesive visual identity across print and digital.',
+      'Produced motion graphics and video content from concept to delivery, used for corporate and live event use.',
       ]
     }
   ];
 </script>
 
 <section id="about">
-<div class="p-7 lg:p-30 flex flex-col md:flex-row gap-12 px-6 py-16" id="about">
+<div class="flex items-center pl-7 pr-7 lg:pl-30 lg:pr-30 ">
+  <hr class="w-20 h-0.5 my-4 bg-neutral-300 border-0 rounded-sm md:my-10">
+  <p class="pl-3 text-2xl md:text-2xl sm:text-base font-light">About Me</p>
+</div>
+<div class="p-7 lg:pl-30 lg:pr-30 flex flex-col md:flex-row gap-12 px-6 py-16" id="about">
   <!-- Left: Title -->
   <div class="md:w-2/5">
     <h2 class="text-3xl font-light top-8">Experience</h2>

@@ -46,7 +46,7 @@
 		cr={1}
 		class={cn("[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)]")}
 	/>
-<div class="font-light text-3xl md:text-4xl lg:text-4xl md:leading-20 lg:leading-relaxed text-neutral-500 flex flex-col justify-end items-start min-h-screen lg:pb-30 md:min-h-0 md:block">
+<div class="font-light text-3xl md:text-4xl lg:text-4xl md:leading-normal lg:leading-relaxed text-neutral-500 flex flex-col justify-end items-start min-h-screen lg:pb-30 md:min-h-0 md:block">
 <p>I'm Yzabel, a multimedia designer with a developer's mindset. I think in both 
 <span class="word-wrap">
     pixel
@@ -64,10 +64,16 @@
       {/if}
     </span>
   </span> and <code class="inline-code sm:text-sm">{displayed}<span class="cursor">|</span></code>, making complex ideas clear for audiences that don't have time for noise.
+  <br>
 </p>
 <div class="font-normal text-lg text-neutral-800">
     <br>
-    More about my background and experiences <i class="fa-solid fa-arrow-down"></i>
+   <a href="#about" class="inline-flex items-center gap-2 ">
+  More about my background and experiences
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M11 16.175V5q0-.425.288-.712T12 4t.713.288T13 5v11.175l4.9-4.9q.3-.3.7-.288t.7.313q.275.3.287.7t-.287.7l-6.6 6.6q-.15.15-.325.213t-.375.062t-.375-.062t-.325-.213l-6.6-6.6q-.275-.275-.275-.687T4.7 11.3q.3-.3.713-.3t.712.3z"/>
+  </svg>
+</a>
 </div>
 </div>
 
