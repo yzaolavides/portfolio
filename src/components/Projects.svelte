@@ -1,40 +1,57 @@
-<script lang="ts">
+<script>
+  import Badge from "/src/components/Badge.svelte";
+
   const projects = [
     {
       id: 1,
       title: 'Social Media',
       description: 'Short description of the project.',
       video: '/videos/socialmedia.mp4',
+      tags: [
+        'Social Media', 'Motion'
+      ]
     },
     {
       id: 2,
       title: 'Thumbnails',
       description: 'Short description of the project.',
       video: '/videos/thumbnails.mp4',
+      tags: [
+        'Social Media'
+      ]
     },
     {
       id: 3,
       title: 'Newsletter',
       description: 'Short description of the project.',
       video: '/videos/newsletter.mp4',
+      tags: [
+        'Reports'
+      ]
     },
     {
       id: 4,
       title: 'HQZen',
       description: 'Short description of the project.',
       video: '/videos/hqzen.mp4',
+      tags: [
+        'UI/UX'
+      ]
     },
     {
       id: 5,
       title: 'AyuAyu',
       description: 'Short description of the project.',
       video: '/videos/ayuayu.mp4',
+      tags: [
+        'UI/UX'
+      ]
     },
     // ...
   ];
 </script>
 
-
+<section id="works">
 <div class="p-7 lg:p-30 grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-y-20 justify-center">
     {#each projects as project (project.id)}
     <div class="flex flex-col gap-3">
@@ -52,10 +69,19 @@
         </div>
 
         <!-- Text -->
-        <div class="pl-1 pt-1">
+         <div>
+          <div class="flex flex-wrap gap-1.5 mb-1">
+            {#each project.tags as tag (tag)}
+              <Badge {tag} />
+            {/each}
+          </div>
+          <div class="pl-1 pt-1">
             <h3 class="text-2xl font-light">{project.title}</h3>
             <p class="text-sm text-gray-500 leading-relaxed">{project.description}</p>
         </div>
         </div>
+        
+        </div>
     {/each}
 </div>
+</section>

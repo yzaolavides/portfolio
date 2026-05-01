@@ -46,7 +46,7 @@
 		cr={1}
 		class={cn("[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)]")}
 	/>
-<div class="font-light text-3xl md:text-4xl lg:text-4xl md:leading-normal lg:leading-relaxed text-neutral-500 flex flex-col justify-end items-start min-h-screen pb-30 md:min-h-0 md:block">
+<div class="font-light text-3xl md:text-4xl lg:text-4xl md:leading-20 lg:leading-relaxed text-neutral-500 flex flex-col justify-end items-start min-h-screen lg:pb-30 md:min-h-0 md:block">
 <p>I'm Yzabel, a multimedia designer with a developer's mindset. I think in both 
 <span class="word-wrap">
     pixel
@@ -63,7 +63,7 @@
         <span class="handle mr"/>
       {/if}
     </span>
-  </span> and <code class="inline-code">{displayed}<span class="cursor">|</span></code>, making complex ideas clear for audiences that don't have time for noise.
+  </span> and <code class="inline-code sm:text-sm">{displayed}<span class="cursor">|</span></code>, making complex ideas clear for audiences that don't have time for noise.
 </p>
 <div class="font-normal text-lg text-neutral-800">
     <br>
@@ -119,8 +119,8 @@
   .inline-code {
     background: #e5e7eb;
     color: #1f2937;
-    font-family: monospace;
-    font-size: 0.9em;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.8em;
     padding: 6px 10px;
     border-radius: 4px;
   }
