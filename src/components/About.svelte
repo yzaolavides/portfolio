@@ -60,14 +60,18 @@
 </script>
 
 <section id="about">
-<div class="flex items-center pl-7 pr-7 lg:pl-30 lg:pr-30 ">
-  <hr class="w-20 h-0.5 my-4 bg-neutral-300 border-0 rounded-sm md:my-10">
-  <p class="pl-3 text-2xl md:text-2xl sm:text-base font-light">About Me</p>
-</div>
-<div class="p-7 lg:pl-30 lg:pr-30 flex flex-col md:flex-row gap-12 px-6 py-16" id="about">
+
+<div class="p-7 lg:pl-20 lg:pr-20 flex flex-col md:flex-row gap-12 px-6 py-16" id="about">
   <!-- Left: Title -->
-  <div class="md:w-2/5">
-    <h2 class="text-3xl font-light top-8">Experience</h2>
+  <div class="sticky md:w-2/5">
+  <div class="flex items-center pb-3">
+  <hr class="w-20 h-0.5 my-4 bg-neutral-300 border-0 rounded-sm md:my-10">
+  <p class="pl-3 text-xl md:text-2xl sm:text-base font-light text-neutral-500">About Me</p>
+</div>
+    <span class="pl-3 pb-3 md:pb-4 text-4xl md:text-5xl sm:text-3xl font-medium">Yzabel Olavides</span>
+    <p class="p-3 pr-5 font-light text-base text-neutral-500 md:pt-4 sm:pt-4">I’m a designer with a background in development, creating work that lives at the intersection of corporate, tech, design, and everything in between.
+      <br><br>Whether I’m designing interfaces, shaping brand visuals, or animating motion content, I love bringing structure and creativity together to craft meaningful digital experiences.
+     <br><br> When I’m not designing, you’ll find me behind my film camera or cheering on football and Formula 1.</p>
   </div>
 
   <!-- Right: Accordion -->
