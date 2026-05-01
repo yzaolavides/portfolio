@@ -1,5 +1,7 @@
 
 <script>
+    import { DotPattern } from "$lib/components/magic/dot-pattern";
+	import { cn } from "$lib/utils";
     import { tweened } from "svelte/motion";
     import { linear } from "svelte/easing";
     import { onMount } from "svelte";
@@ -30,8 +32,20 @@
   });
 
 </script>
-<div class="p-7 lg:p-40">
 
+<!-- <div class="bg-background relative flex h-125 w-70 flex-col items-center justify-center overflow-hidden rounded-lg md:min-w-2xl">
+	<DotPattern class={cn("mask-[radial-gradient(300px_circle_at_center,white,transparent)]")} />
+</div> -->
+
+<div class="p-7 lg:p-40">
+<DotPattern
+		width={20}
+		height={20}
+		cx={1}
+		cy={1}
+		cr={1}
+		class={cn("[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)]")}
+	/>
 <div class="font-light text-3xl md:text-4xl lg:text-4xl md:leading-normal lg:leading-relaxed text-neutral-500 flex flex-col justify-end items-start min-h-screen pb-30 md:min-h-0 md:block">
 <p>I'm Yzabel, a multimedia designer with a developer's mindset. I think in both 
 <span class="word-wrap">
