@@ -4,14 +4,16 @@
   const experiences = [
     {
       id: 1,
-      title: 'Senior Designer — Acme Corp',
-      date: '2022 - Present',
+      title: 'Graphic Designer',
+      company: 'Launch',
+      date: '2026 - Present',
       description: 'Designed end-to-end product experiences across web and mobile, collaborating with cross-functional teams.'
     },
     {
       id: 2,
-      title: 'UI/UX Designer — Studio XYZ',
-      date: '2020 - 2022',
+      title: 'Graphic Designer',
+      company: 'Reach',
+      date: '2025',
       description: 'Led visual design for client campaigns, brand systems, and digital publications.'
     }
   ];
@@ -28,10 +30,12 @@
     <Accordion flush>
       {#each experiences as exp (exp.id)}
         <AccordionItem>
-          <span slot="header" class="flex flex-col">
-            <span class="font-semibold">{exp.title}</span>
-            <span class="text-sm text-gray-500">{exp.date}</span>
-          </span>
+          {#snippet header()}
+            <span class="flex flex-col">
+              <span class="text-xl font-normal text-neutral-800">{exp.title}</span>
+              <span class="text-base font-light text-gray-500">{exp.date}</span>
+            </span>
+          {/snippet}
           <p class="text-gray-600 leading-relaxed">{exp.description}</p>
         </AccordionItem>
       {/each}
