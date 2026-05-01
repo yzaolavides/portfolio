@@ -11,12 +11,12 @@
 <div class="absolute inset-0 z-0 overflow-hidden">
 	<AnimatedGridPattern
 		numSquares={20}
-		maxOpacity={0.5}
-		duration={3}
+		maxOpacity={0.35}
+		duration={2}
 		repeatDelay={0.5}
 		class={cn(
 			"mask-[radial-gradient(600px_circle_at_center,white,transparent)]",
-			"inset-x-0 inset-y-[-30%] h-[118%] skew-y-0"
+			"inset-x-0 inset-y-[-10%] h-[90%] skew-y-0"
 		)}
 	/>
 </div>
@@ -32,7 +32,7 @@
 
   <!-- Bottom: footer -->
    
-  <div class="pl-7 pr-7 bg-neutral-900">
+  <div class="z-20 pl-7 pr-7">
       <div class="flex justify-end">
     <a href="mailto:yza.olavides@gmail.com"> <span class="font-normal text-neutral-50 text-2xl pb-2 pr-7 inline-flex items-center gap-2 hover:text-neutral-500 transition duration-300 ease-in-out">Get in touch <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M16.15 13H5q-.425 0-.712-.288T4 12t.288-.712T5 11h11.15L13.3 8.15q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L19.3 11.3q.15.15.213.325t.062.375t-.062.375t-.213.325l-4.575 4.575q-.3.3-.712.288t-.713-.313q-.275-.3-.288-.7t.288-.7z"/></svg></span></a>
     </div>
