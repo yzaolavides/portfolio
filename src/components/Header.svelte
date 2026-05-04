@@ -9,7 +9,7 @@
 	<!-- <ScrollProgress class="top-16" /> -->
 		<div class="content">
 			<div style="display: flex; padding: 1rem 0 1rem 0;">
-				<a href={resolve("/#")} style="text-decoration: none" class="logo">yzabel olavides</a>
+				<a href={resolve("/#")} style="text-decoration: none" class="logo hover:text-[#FF6D29] transition duration-300 ease-in-out">yzabel olavides</a>
 				<button title="dropdown" class="dropdown" onclick={dropMenu}><i class="fa-solid fa-bars"></i></button>
 			</div>
 			<nav class="links items-center" class:closed={is_navbar_closed}>

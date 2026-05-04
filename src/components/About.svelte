@@ -81,14 +81,14 @@
         <AccordionItem>
           {#snippet header()}
             <span class="flex flex-col">
-              <span class="text-xl font-normal text-neutral-700 dark:text-neutral-900">{exp.title} / {exp.company}</span>
+              <span class="text-xl font-normal text-neutral-700 hover:text-[#FF6D29] active:text-[#FF6D29] transition duration-300 ease-in-out">{exp.title} / {exp.company}</span>
               <span class="text-base font-light text-gray-500">{exp.date}</span></span>
           {/snippet}
           {#snippet arrowup()}
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" transform="rotate(45)"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12.001 5v14.002m7.001-7H5"/></svg>
           {/snippet}
           {#snippet arrowdown()}
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12.001 5v14.002m7.001-7H5"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12.001 5v14.002m7.001-7H5"/></svg>
           {/snippet}
           <ul class="list-disc pl-4 font-light space-y-1 text-gray-600 leading-relaxed">
             {#each exp.bullets as bullet, i (i)}

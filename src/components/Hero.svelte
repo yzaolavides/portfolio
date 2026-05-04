@@ -33,11 +33,8 @@
 
 </script>
 
-<!-- <div class="bg-background relative flex h-125 w-70 flex-col items-center justify-center overflow-hidden rounded-lg md:min-w-2xl">
-	<DotPattern class={cn("mask-[radial-gradient(300px_circle_at_center,white,transparent)]")} />
-</div> -->
-
 <div class="p-7 lg:p-40">
+<div class="z-0">
 <DotPattern
 		width={30}
 		height={30}
@@ -45,11 +42,12 @@
 		cy={1}
 		cr={1}
 		class={cn("mask-[radial-gradient(900px_circle_at_center,transparent,white)]",
-      "inset-x-0 inset-y-[-10%] h-[118%] skew-y-0"
+              "inset-x-0 inset-y-[-10%] h-[118%] skew-y-0"
     )}
 	/>
-<div class="font-light text-3xl md:text-4xl lg:text-4xl md:leading-normal lg:leading-relaxed text-neutral-500 flex flex-col justify-center items-center min-h-screen lg:pb-30 md:min-h-0 md:block">
-<p>I'm Yzabel, a multimedia designer with a developer's mindset. I think in both 
+</div>
+<div class="z-10 font-light text-3xl md:text-4xl lg:text-4xl text-neutral-500 flex flex-col justify-end items-start min-h-full lg:pb-20 md:block">
+<p class="leading-snug sm:leading-relaxed md:leading-normal lg:leading-relaxed">I'm Yzabel, a multimedia designer with a developer's mindset. I think in both 
 <span class="word-wrap">
     pixel
     <span class="bbox" style="width: {$width}%; height: {$height}%;">
@@ -68,15 +66,15 @@
   </span> and <code class="inline-code sm:text-sm">{displayed}<span class="cursor">|</span></code>, making complex ideas clear for audiences that don't have time for noise.
   <br>
 </p>
-<div class="font-normal text-lg text-neutral-800 hover:text-[#FF6D29] transition duration-300 ease-in-out">
+
     <br>
-   <a href="#about" class="inline-flex items-center gap-2">
+   <a href="#about" class="inline-flex items-center gap-2 font-normal text-lg text-neutral-800 hover:text-[#FF6D29] transition duration-300 ease-in-out">
   More about my background and experiences
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
     <path fill="currentColor" d="M11 16.175V5q0-.425.288-.712T12 4t.713.288T13 5v11.175l4.9-4.9q.3-.3.7-.288t.7.313q.275.3.287.7t-.287.7l-6.6 6.6q-.15.15-.325.213t-.375.062t-.375-.062t-.325-.213l-6.6-6.6q-.275-.275-.275-.687T4.7 11.3q.3-.3.713-.3t.712.3z"/>
   </svg>
 </a>
-</div>
+
 </div>
 
 </div>
@@ -138,11 +136,17 @@
     display: inline-block;
     animation: blink 0.7s step-end infinite;
     margin-left: 1px;
-    color: #6b7280;
+    color: #FF6D29;
   }
 
   @keyframes blink {
     0%, 100% { opacity: 1; }
     50%       { opacity: 0; }
+  }
+
+  :global(.dotfade) {
+    mask-image: 
+      linear-gradient(to top, transparent, white) !important;
+    mask-composite: intersect;
   }
 </style>
