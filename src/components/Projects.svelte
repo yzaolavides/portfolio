@@ -1,5 +1,6 @@
 <script>
   import Badge from "/src/components/Badge.svelte";
+  
 
   const projects = [
     {
@@ -7,6 +8,7 @@
       title: 'Social Media',
       description: 'Short description of the project.',
       video: '/videos/socialmedia.mp4',
+      bloglink:'/work/project-one',
       tags: [
         'Social Media', 'Motion'
       ]
@@ -16,6 +18,7 @@
       title: 'Thumbnails',
       description: 'Short description of the project.',
       video: '/videos/thumbnails.mp4',
+      bloglink:'/work/project-one',
       tags: [
         'Social Media'
       ]
@@ -25,6 +28,7 @@
       title: 'Newsletter',
       description: 'Short description of the project.',
       video: '/videos/newsletter.mp4',
+      bloglink:'/work/project-one',
       tags: [
         'Reports'
       ]
@@ -34,6 +38,7 @@
       title: 'HQZen',
       description: 'Short description of the project.',
       video: '/videos/hqzen.mp4',
+      bloglink:'/work/hqzen-case-study',
       tags: [
         'UI/UX'
       ]
@@ -43,6 +48,7 @@
       title: 'AyuAyu',
       description: 'Short description of the project.',
       video: '/videos/ayuayu.mp4',
+      bloglink:'/work/project-one',
       tags: [
         'UI/UX'
       ]
@@ -59,7 +65,7 @@
   <div class="p-7 lg:p-20 grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-y-20 justify-center">
   
   {#each projects as project (project.id)}
-    <div class="flex flex-col gap-3">
+    <a href={project.bloglink} class="flex flex-col gap-3">
         <!-- Thumbnail -->
         <div class="border border-neutral-100 rounded-xl overflow-hidden aspect-video bg-gray-100">
             <video
@@ -86,7 +92,7 @@
         </div>
         </div>
         
-        </div>
+      </a>
     {/each}
 </div>
 </section>
