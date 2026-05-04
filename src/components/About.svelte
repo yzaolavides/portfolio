@@ -63,7 +63,7 @@
 
 <div class="p-7 lg:pl-20 lg:pr-20 flex flex-col md:flex-row gap-12 px-6 py-16" id="about">
   <!-- Left: Title -->
-  <div class="sticky md:w-2/5">
+  <div class="sticky md:w-3/7">
   <div class="flex items-center pb-3">
   <hr class="w-20 h-0.5 my-4 bg-neutral-300 border-0 rounded-sm md:my-10">
   <p class="pl-3 text-xl md:text-2xl sm:text-base font-light text-neutral-500">About Me</p>
@@ -75,7 +75,7 @@
   </div>
 
   <!-- Right: Accordion -->
-  <div class="md:w-3/5">
+  <div class="md:w-4/7">
     <Accordion flush>
       {#each experiences as exp (exp.id)}
         <AccordionItem>
@@ -85,10 +85,14 @@
               <span class="text-base font-light text-gray-500">{exp.date}</span></span>
           {/snippet}
           {#snippet arrowup()}
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" transform="rotate(45)"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12.001 5v14.002m7.001-7H5"/></svg>
+            <svg class="transition-transform duration-300 rotate-45" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12.001 5v14.002m7.001-7H5"/>
+            </svg>
           {/snippet}
           {#snippet arrowdown()}
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12.001 5v14.002m7.001-7H5"/></svg>
+            <svg class="transition-transform duration-300 rotate-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12.001 5v14.002m7.001-7H5"/>
+            </svg>
           {/snippet}
           <ul class="list-disc pl-4 font-light space-y-1 text-gray-600 leading-relaxed">
             {#each exp.bullets as bullet, i (i)}
