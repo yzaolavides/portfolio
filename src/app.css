@@ -3,9 +3,6 @@
 @import "@fontsource-variable/inter";
 @source "../node_modules/flowbite-svelte";
 
-body {
-  background-color: #F9F8F7;
-}
 
 @layer base {
 	* {

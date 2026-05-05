@@ -59,7 +59,7 @@
   ];
 </script>
 
-<section id="about">
+<section id="about" class="bg-neutral-50">
 
 <div class="p-7 lg:pl-20 lg:pr-20 flex flex-col md:flex-row gap-12 px-6 py-16" id="about">
   <!-- Left: Title -->

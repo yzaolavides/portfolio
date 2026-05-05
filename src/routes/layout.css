@@ -43,8 +43,10 @@ html {
 }
 
 * {
+
     font-family: 'Inter', sans-serif;
     letter-spacing: -0.5px;
+    /* background-color: #F9F8F7; */
 }
 
 h1 {
@@ -54,7 +56,7 @@ h1 {
 .navbar{
 		position: sticky;
         top: 0rem;
-        background-color: rgb(251, 251, 251);
+        background-color: #faf9f7;
         text-align: center;
         font-weight: 300;
     }

@@ -33,7 +33,7 @@
 
 </script>
 
-<div class="p-7 lg:p-40">
+<div class="bg-neutral-50 p-7 lg:p-40">
 <div class="z-0">
 <DotPattern
 		width={30}
