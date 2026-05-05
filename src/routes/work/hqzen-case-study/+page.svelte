@@ -26,7 +26,7 @@
 </div>
 
 <div class="bg-neutral-50">
-<div class="pl-5 pr-5 lg:pl-50 lg:pr-50 pt-12 pb-12 text-neutral-500" style="letter-spacing: -0.02em">
+<div class="pl-5 pr-5 lg:pl-50 lg:pr-50 lg:pt-12 lg:pb-12 text-neutral-500" style="letter-spacing: -0.02em">
 <CaseStudySection title="Context" color={themeColor}>
   <p class="font-light text-2xl pb-1 text-neutral-600">As HQZen grew as BPOSeats' flagship SaaS product, the need to communicate who they are became more pressing.</p>
 <p class="leading-relaxed font-light">Their website had no dedicated space for culture, values, or the people behind the product, making it harder to attract the right talent, build trust with clients, and establish a distinct brand identity. The goal was to design and develop a culture page that filled that gap, authentically.</p>
@@ -69,28 +69,46 @@
         The final design balances storytelling with structure, featuring employee highlights, workspace visuals, and the team's work principles. A minimal layout lets HQZen's brand colors and typography carry the tone, making the page feel like a natural extension of the product.
     </p>
     <br>
+
+	<button type="button" class="font-semibold bg-white box-border rounded-xl hover:bg-[#EEF7FE]/75 hover:text-({themeColor}) focus:ring-2 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">View Prototype</button>
+
 </CaseStudySection>
 
 <CaseStudySection title="Learnings" color={themeColor}>
     <p class="leading-relaxed font-light">
-        Looking back, these were the moments that shaped how I think about design:
+        Looking back, these were some learnings that now shaped how I think about design:
     </p>
     <br>
 
 
-    <div class="bg-neutral-50 block p-6 mb-4 rounded-2xl rounded-base shadow-sm hover:bg-neutral-100">
-        <h5 class="mb-2 lg:pl-6 text-xl font-semibold tracking-tight text-heading leading-8">Scope decisions pragmatically</h5>
-        <p class="leading-relaxed font-light lg:pl-6">Working with a limited timeline and a small research pool taught me to move forward with what I had, rather than wait for perfect conditions.</p>
+    <div class="bg-white block p-6 mb-4 rounded-2xl shadow-sm hover:bg-neutral-100">
+    <div class="flex items-start gap-4 lg:pl-2">
+        <span class="text-2xl">🎯</span>
+        <div>
+        <h5 class="mb-2 text-xl font-semibold tracking-tight text-heading leading-8">Scope decisions pragmatically</h5>
+        <p class="leading-relaxed font-light">Working with a limited timeline and a small research pool taught me to move forward with what I had, rather than wait for perfect conditions.</p>
+        </div>
+    </div>
     </div>
 
-    <div class="bg-neutral-primary-soft block p-6 mb-4 rounded-2xl rounded-base shadow-sm hover:bg-neutral-100">
-        <h5 class="mb-2 lg:pl-6 text-xl font-semibold tracking-tight text-heading leading-8">Iteration, iteration, iteration...</h5>
-        <p class="leading-relaxed font-light lg:pl-6">Layout decisions rarely land on the first try. This project pushed me to keep exploring arrangements until the structure actually served the content.</p>
+    <div class="bg-white block p-6 mb-4 rounded-2xl shadow-sm hover:bg-neutral-100">
+    <div class="flex items-start gap-4 lg:pl-2">
+        <span class="text-2xl">🔁</span>
+        <div>
+        <h5 class="mb-2 text-xl font-semibold tracking-tight text-heading leading-8">Iteration, iteration, iteration...</h5>
+        <p class="leading-relaxed font-light">Layout decisions rarely land on the first try. This project pushed me to keep exploring arrangements until the structure actually served the content.</p>
+        </div>
+    </div>
     </div>
 
-    <div class="bg-neutral-primary-soft block p-6 mb-4 rounded-2xl rounded-base shadow-sm hover:bg-neutral-100">
-        <h5 class="mb-2 lg:pl-6 text-xl font-semibold tracking-tight text-heading leading-8">Creating down-to-earth designs  </h5>
-        <p class="leading-relaxed font-light lg:pl-6">Wearing both the designer and developer hat meant I had to stay honest with myself. If I couldn't build it well, it wasn't a good design.</p>
+    <div class="bg-white block p-6 mb-4 rounded-2xl shadow-sm hover:bg-neutral-100">
+    <div class="flex items-start gap-4 lg:pl-2">
+        <span class="text-2xl">🛠️</span>
+        <div>
+        <h5 class="mb-2 text-xl font-semibold tracking-tight text-heading leading-8">Creating down-to-earth designs</h5>
+        <p class="leading-relaxed font-light">Wearing both the designer and developer hat meant I had to stay honest with myself. If I couldn't build it well, it wasn't a good design.</p>
+        </div>
+    </div>
     </div>
 
 
