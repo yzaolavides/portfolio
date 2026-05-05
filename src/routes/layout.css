@@ -111,3 +111,16 @@ h1 {
     min-height: 100vh;
     width: auto;
 }
+
+.casestudy-title {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.03;
+}
+
+.casestudy-section {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 200;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+}

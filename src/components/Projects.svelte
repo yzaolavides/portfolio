@@ -35,8 +35,8 @@
     },
     {
       id: 4,
-      title: 'HQZen',
-      description: 'Short description of the project.',
+      title: 'HQZen Culture Page',
+      description: 'Researched, designed, and developed a culture page that brings HQZen’s software development team and values to life.',
       video: '/videos/hqzen.mp4',
       bloglink:'/work/hqzen-case-study',
       tags: [

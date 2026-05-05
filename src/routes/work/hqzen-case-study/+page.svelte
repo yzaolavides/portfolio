@@ -1,39 +1,48 @@
 <script>
-  import { ScrollSpy } from 'flowbite-svelte';
+  import CaseStudyHero from '/src/components/casestudy/CaseStudyHero.svelte';
+  import CaseStudyMeta from '/src/components/casestudy/CaseStudyMeta.svelte';
+  import CaseStudySection from '/src/components/casestudy/CaseStudySection.svelte';
   
-  const items = [
-    { id: 'section-1', label: 'Section 1' },
-    { id: 'section-2', label: 'Section 2' },
-    { id: 'section-3', label: 'Section 3' }
-  ];
+  let themeColor = '#2890FF';
 </script>
 
-<ScrollSpy {items} position="left" />
+<title>Yzabel Olavides | Portfolio</title>
 
-<section id="section-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non commodo turpis. Pellentesque id mi ex. Nam porttitor leo nec lectus auctor aliquam. Phasellus placerat blandit nulla, sit amet viverra sapien dignissim quis. Etiam et lorem ut leo ultricies volutpat. Praesent sollicitudin purus at tortor pretium facilisis. Cras placerat cursus nisl, eget scelerisque tellus laoreet a.
+<div class="bg-[{themeColor}] min-h-screen flex flex-col justify-end">
+  <div class="bg-white pl-5 pr-5 lg:pl-50 lg:pr-50 pt-12 pb-12">
+    <CaseStudyHero
+      title="HQZen Culture Page"
+      description="Researched, designed, and developed a culture page that brings HQZen's software development team and values to life."
+    />
+    <CaseStudyMeta
+      client="BPOSeats"
+       role={['UI/UX Designer', 'Frontend Developer']}
+      timeline="July - August 2023"
+      tools={['Figma', 'Vue.js', 'HTML5', 'Sass']}
+      color={themeColor}
+    />
+  </div>
+</div>
 
-Nulla vehicula, sapien egestas egestas ultrices, nisi erat venenatis augue, vel sollicitudin est neque nec dui. Aenean risus ex, accumsan ut hendrerit quis, tincidunt quis nulla. Etiam id ipsum sit amet elit egestas interdum a sed metus. Proin semper lobortis turpis, sed ultricies purus condimentum vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce hendrerit iaculis sem a tincidunt. Aliquam eget venenatis tellus.
+<div class="pl-5 pr-5 lg:pl-50 lg:pr-50 pt-12 pb-12 text-neutral-500" style="letter-spacing: -0.02em">
+<CaseStudySection title="Context" color={themeColor}>
+  <p class="font-light text-2xl pb-1 text-neutral-600">As HQZen grew as BPOSeats' flagship SaaS product, the need to communicate who they are became more pressing.</p>
+<p class="leading-relaxed font-light">Their website had no dedicated space for culture, values, or the people behind the product, making it harder to attract the right talent, build trust with clients, and establish a distinct brand identity. The goal was to design and develop a culture page that filled that gap, authentically.</p>
+</CaseStudySection>
 
-Curabitur vehicula eget tellus ullamcorper tincidunt. Integer eu pulvinar erat. Aenean augue eros, vulputate ut dui et, efficitur tempus metus. Quisque et lobortis nisl, vel semper sem. Mauris vitae gravida libero. Cras erat massa, gravida eget ligula ut, laoreet consequat sem. Sed vehicula ornare purus sit amet aliquam. Quisque fringilla vestibulum tortor, in varius erat vulputate sed. Quisque eleifend turpis eu justo vehicula, ac aliquet orci lacinia. Curabitur vitae aliquam libero. Suspendisse ac quam ex. Nam vitae nibh et erat dignissim lacinia.
+<CaseStudySection title="Outcome" color={themeColor}>
+  <p class="leading-relaxed font-light">As a web design intern, I took this project from research all the way through to a live, deployed page, handling UX research, UI design, and frontend implementation. The result was a fully built culture page that showcases HQZen's team, work principles, and company environment through a minimal, brand-aligned layout that feels native to their existing product experience.</p>
+</CaseStudySection>
+<hr class="h-px bg-neutral-300 border-0 mt-8 mb-8 ml-4 mr-4">
+<CaseStudySection title="Keystages" color={themeColor}>
+    <p class="leading-relaxed font-light">The project followed a modified design thinking process, with an added Implementation phase to take designs all the way to a live, deployed page.</p>
+    <br>
+    <p class="leading-relaxed font-light">I started with desk research to understand why culture pages matter, how they shape employer branding, attract talent, and set expectations for both candidates and clients. Additionally, I also framed the problem into a How Might We question, to help in further ideation. </p>
+    <blockquote class="p-4 my-4 border-s-4 bg-[#EEF7FE]/75" style="border-color: {themeColor}; color:{themeColor};">
+        <p class="text-xl italic font-medium leading-relaxed text-({themeColor})">"How might we effectively communicate the company’s software development team’s culture that attracts both talent and clients?"</p>
+    </blockquote>
 
-Vivamus volutpat tristique lorem viverra sollicitudin. Nullam dapibus, mi eu consectetur tincidunt, massa massa pellentesque ipsum, sit amet scelerisque arcu velit id tellus. Vestibulum id mi vel justo ullamcorper porta. Maecenas dolor diam, lacinia quis sapien sed, maximus molestie arcu. Nam tempus nisl sed tortor vestibulum sagittis. Mauris rutrum odio quis sem volutpat, nec porttitor orci tristique. In in ligula diam. Curabitur aliquet fermentum dui, sed ultricies ipsum vehicula id. Sed dapibus iaculis ornare. Maecenas fermentum magna purus. Nam eu nisl vulputate, interdum ligula eget, faucibus velit. Vestibulum tempus, nunc id consequat mollis, nisl eros faucibus diam, ut egestas purus erat non massa. Proin nec felis vitae ex placerat congue eu ut dolor.
+    <p class="leading-relaxed font-light">From there, my co-intern and I ran a user survey targeting both internal team members and external audiences. With 21 respondents and a tight timeline, the sample was small but actionable, and it surfaced clear patterns in what different audiences expected to find on a culture page.</p>
+</CaseStudySection>
+</div>
 
-Proin convallis elit eget pharetra porta. Cras urna purus, placerat et cursus non, hendrerit a nisi. Suspendisse quis rhoncus nibh, eu ultricies odio. Duis ornare velit in tellus feugiat, eu accumsan mi ultrices. Cras rhoncus vitae nisl a lacinia. Pellentesque condimentum mi leo, in gravida neque vestibulum quis. Cras in commodo erat. Curabitur rutrum vestibulum pharetra. Integer quis pellentesque quam, non varius mauris. Nam egestas mi eu ligula aliquam egestas. Etiam ex turpis, vehicula vitae dui eu, dapibus interdum arcu.</section>
-<section id="section-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non commodo turpis. Pellentesque id mi ex. Nam porttitor leo nec lectus auctor aliquam. Phasellus placerat blandit nulla, sit amet viverra sapien dignissim quis. Etiam et lorem ut leo ultricies volutpat. Praesent sollicitudin purus at tortor pretium facilisis. Cras placerat cursus nisl, eget scelerisque tellus laoreet a.
-
-Nulla vehicula, sapien egestas egestas ultrices, nisi erat venenatis augue, vel sollicitudin est neque nec dui. Aenean risus ex, accumsan ut hendrerit quis, tincidunt quis nulla. Etiam id ipsum sit amet elit egestas interdum a sed metus. Proin semper lobortis turpis, sed ultricies purus condimentum vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce hendrerit iaculis sem a tincidunt. Aliquam eget venenatis tellus.
-
-Curabitur vehicula eget tellus ullamcorper tincidunt. Integer eu pulvinar erat. Aenean augue eros, vulputate ut dui et, efficitur tempus metus. Quisque et lobortis nisl, vel semper sem. Mauris vitae gravida libero. Cras erat massa, gravida eget ligula ut, laoreet consequat sem. Sed vehicula ornare purus sit amet aliquam. Quisque fringilla vestibulum tortor, in varius erat vulputate sed. Quisque eleifend turpis eu justo vehicula, ac aliquet orci lacinia. Curabitur vitae aliquam libero. Suspendisse ac quam ex. Nam vitae nibh et erat dignissim lacinia.
-
-Vivamus volutpat tristique lorem viverra sollicitudin. Nullam dapibus, mi eu consectetur tincidunt, massa massa pellentesque ipsum, sit amet scelerisque arcu velit id tellus. Vestibulum id mi vel justo ullamcorper porta. Maecenas dolor diam, lacinia quis sapien sed, maximus molestie arcu. Nam tempus nisl sed tortor vestibulum sagittis. Mauris rutrum odio quis sem volutpat, nec porttitor orci tristique. In in ligula diam. Curabitur aliquet fermentum dui, sed ultricies ipsum vehicula id. Sed dapibus iaculis ornare. Maecenas fermentum magna purus. Nam eu nisl vulputate, interdum ligula eget, faucibus velit. Vestibulum tempus, nunc id consequat mollis, nisl eros faucibus diam, ut egestas purus erat non massa. Proin nec felis vitae ex placerat congue eu ut dolor.
-
-Proin convallis elit eget pharetra porta. Cras urna purus, placerat et cursus non, hendrerit a nisi. Suspendisse quis rhoncus nibh, eu ultricies odio. Duis ornare velit in tellus feugiat, eu accumsan mi ultrices. Cras rhoncus vitae nisl a lacinia. Pellentesque condimentum mi leo, in gravida neque vestibulum quis. Cras in commodo erat. Curabitur rutrum vestibulum pharetra. Integer quis pellentesque quam, non varius mauris. Nam egestas mi eu ligula aliquam egestas. Etiam ex turpis, vehicula vitae dui eu, dapibus interdum arcu.</section>
-<section id="section-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non commodo turpis. Pellentesque id mi ex. Nam porttitor leo nec lectus auctor aliquam. Phasellus placerat blandit nulla, sit amet viverra sapien dignissim quis. Etiam et lorem ut leo ultricies volutpat. Praesent sollicitudin purus at tortor pretium facilisis. Cras placerat cursus nisl, eget scelerisque tellus laoreet a.
-
-Nulla vehicula, sapien egestas egestas ultrices, nisi erat venenatis augue, vel sollicitudin est neque nec dui. Aenean risus ex, accumsan ut hendrerit quis, tincidunt quis nulla. Etiam id ipsum sit amet elit egestas interdum a sed metus. Proin semper lobortis turpis, sed ultricies purus condimentum vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce hendrerit iaculis sem a tincidunt. Aliquam eget venenatis tellus.
-
-Curabitur vehicula eget tellus ullamcorper tincidunt. Integer eu pulvinar erat. Aenean augue eros, vulputate ut dui et, efficitur tempus metus. Quisque et lobortis nisl, vel semper sem. Mauris vitae gravida libero. Cras erat massa, gravida eget ligula ut, laoreet consequat sem. Sed vehicula ornare purus sit amet aliquam. Quisque fringilla vestibulum tortor, in varius erat vulputate sed. Quisque eleifend turpis eu justo vehicula, ac aliquet orci lacinia. Curabitur vitae aliquam libero. Suspendisse ac quam ex. Nam vitae nibh et erat dignissim lacinia.
-
-Vivamus volutpat tristique lorem viverra sollicitudin. Nullam dapibus, mi eu consectetur tincidunt, massa massa pellentesque ipsum, sit amet scelerisque arcu velit id tellus. Vestibulum id mi vel justo ullamcorper porta. Maecenas dolor diam, lacinia quis sapien sed, maximus molestie arcu. Nam tempus nisl sed tortor vestibulum sagittis. Mauris rutrum odio quis sem volutpat, nec porttitor orci tristique. In in ligula diam. Curabitur aliquet fermentum dui, sed ultricies ipsum vehicula id. Sed dapibus iaculis ornare. Maecenas fermentum magna purus. Nam eu nisl vulputate, interdum ligula eget, faucibus velit. Vestibulum tempus, nunc id consequat mollis, nisl eros faucibus diam, ut egestas purus erat non massa. Proin nec felis vitae ex placerat congue eu ut dolor.
-
-Proin convallis elit eget pharetra porta. Cras urna purus, placerat et cursus non, hendrerit a nisi. Suspendisse quis rhoncus nibh, eu ultricies odio. Duis ornare velit in tellus feugiat, eu accumsan mi ultrices. Cras rhoncus vitae nisl a lacinia. Pellentesque condimentum mi leo, in gravida neque vestibulum quis. Cras in commodo erat. Curabitur rutrum vestibulum pharetra. Integer quis pellentesque quam, non varius mauris. Nam egestas mi eu ligula aliquam egestas. Etiam ex turpis, vehicula vitae dui eu, dapibus interdum arcu.</section>
