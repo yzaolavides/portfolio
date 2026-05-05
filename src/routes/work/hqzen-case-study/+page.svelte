@@ -83,7 +83,9 @@
 
     <div class="bg-white block p-6 mb-4 rounded-2xl shadow-sm hover:bg-neutral-100">
     <div class="flex items-start gap-4 lg:pl-2">
-        <span class="text-2xl">🎯</span>
+        <span class="text-2xl">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><g stroke={themeColor} stroke-linecap="round" stroke-linejoin="round" stroke-width="1"><g fill="#2890FF" fill-opacity="0" stroke-dasharray="24"><path d="M11.5 5c0 -0.83 0.67 -1.5 1.5 -1.5h6c0.83 0 1.5 0.67 1.5 1.5c0 0.83 -0.67 1.5 -1.5 1.5h-6c-0.83 0 -1.5 -0.67 -1.5 -1.5Z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="24;0"/><animate fill="freeze" attributeName="fill-opacity" begin="1.2s" dur="0.15s" to="0.3"/></path><path stroke-dashoffset="24" d="M11.5 12c0 -0.83 0.67 -1.5 1.5 -1.5h6c0.83 0 1.5 0.67 1.5 1.5c0 0.83 -0.67 1.5 -1.5 1.5h-6c-0.83 0 -1.5 -0.67 -1.5 -1.5Z"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s" to="0"/><animate fill="freeze" attributeName="fill-opacity" begin="1.2s" dur="0.15s" to="0.3"/></path><path stroke-dashoffset="24" d="M11.5 19c0 -0.83 0.67 -1.5 1.5 -1.5h6c0.83 0 1.5 0.67 1.5 1.5c0 0.83 -0.67 1.5 -1.5 1.5h-6c-0.83 0 -1.5 -0.67 -1.5 -1.5Z"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.8s" dur="0.3s" to="0"/><animate fill="freeze" attributeName="fill-opacity" begin="1.2s" dur="0.15s" to="0.3"/></path></g><g fill="none" stroke-dasharray="12" stroke-dashoffset="12" stroke-width="3"><path d="M3 5l2 2l4 -4"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.2s" dur="0.2s" to="0"/></path><path d="M3 12l2 2l4 -4"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.6s" dur="0.2s" to="0"/></path><path d="M3 19l2 2l4 -4"><animate fill="freeze" attributeName="stroke-dashoffset" begin="1s" dur="0.2s" to="0"/></path></g></g></svg>
+        </span>
         <div>
         <h5 class="mb-2 text-xl font-semibold tracking-tight text-heading leading-8">Scope decisions pragmatically</h5>
         <p class="leading-relaxed font-light">Working with a limited timeline and a small research pool taught me to move forward with what I had, rather than wait for perfect conditions.</p>
@@ -93,7 +95,7 @@
 
     <div class="bg-white block p-6 mb-4 rounded-2xl shadow-sm hover:bg-neutral-100">
     <div class="flex items-start gap-4 lg:pl-2">
-        <span class="text-2xl">🔁</span>
+        <span class="text-2xl"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><g fill="none" stroke={themeColor} stroke-linecap="round" stroke-linejoin="round" stroke-width="3"><path stroke-dasharray="18" d="M12 3c4.97 0 9 4.03 9 9"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="18;0"/><animateTransform attributeName="transform" dur="1.5s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></path><path stroke-dasharray="60" d="M12 3c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9c0 -4.97 4.03 -9 9 -9Z" opacity="0.3"><animate fill="freeze" attributeName="stroke-dashoffset" dur="1.2s" values="60;0"/></path></g></svg></span>
         <div>
         <h5 class="mb-2 text-xl font-semibold tracking-tight text-heading leading-8">Iteration, iteration, iteration...</h5>
         <p class="leading-relaxed font-light">Layout decisions rarely land on the first try. This project pushed me to keep exploring arrangements until the structure actually served the content.</p>
@@ -103,7 +105,7 @@
 
     <div class="bg-white block p-6 mb-4 rounded-2xl shadow-sm hover:bg-neutral-100">
     <div class="flex items-start gap-4 lg:pl-2">
-        <span class="text-2xl">🛠️</span>
+        <span class="text-2xl"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><g stroke={themeColor} stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path fill="#2890FF" fill-opacity="0" stroke-dasharray="46" d="M12 17h-3v-2.8c-1.79 -1.04 -3 -2.98 -3 -5.2c0 -3.31 2.69 -6 6 -6c3.31 0 6 2.69 6 6c0 2.22 -1.21 4.16 -3 5.2v2.8Z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="1s" values="46;0"/><animate fill="freeze" attributeName="fill-opacity" begin="1.4s" dur="0.3s" to="0.3"/></path><path fill="none" stroke-dasharray="6" stroke-dashoffset="6" d="M10 21h4"><animate fill="freeze" attributeName="stroke-dashoffset" begin="1s" dur="0.4s" to="0"/></path></g></svg></span>
         <div>
         <h5 class="mb-2 text-xl font-semibold tracking-tight text-heading leading-8">Creating down-to-earth designs</h5>
         <p class="leading-relaxed font-light">Wearing both the designer and developer hat meant I had to stay honest with myself. If I couldn't build it well, it wasn't a good design.</p>
