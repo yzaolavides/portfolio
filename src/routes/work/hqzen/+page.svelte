@@ -67,8 +67,10 @@
         The final design balances storytelling with structure, featuring employee highlights, workspace visuals, and the team's work principles. A minimal layout lets HQZen's brand colors and typography carry the tone, making the page feel like a natural extension of the product.
     </p>
     <br>
-
-	<button type="button" class="font-semibold bg-white box-border rounded-xl hover:bg-[#EEF7FE]/75 hover:text-({themeColor}) focus:ring-2 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">View Prototype</button>
+    <a href="https://yzaolavides.github.io/hqzen-culture/" target="_blank">
+	<button class="bg-transparent hover:bg-[#2890FF] text-[#2890FF] font-semibold hover:text-white transition duration-300 ease-in-out py-2 px-4 border border-[#2890FF] hover:border-transparent rounded">
+    View Prototype</button>
+    </a>
 
 </CaseStudySection>
 
