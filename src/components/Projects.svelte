@@ -25,10 +25,10 @@
     },
     {
       id: 3,
-      title: 'Newsletter',
+      title: 'Annual Performance Report',
       description: 'Short description of the project.',
       video: '/videos/newsletter.mp4',
-      bloglink:'/work/project-one',
+      bloglink:'/work/ren-annual-report',
       tags: [
         'Reports'
       ]
@@ -38,20 +38,26 @@
       title: 'HQZen Culture Page',
       description: 'Researched, designed, and developed a culture page that brings HQZen’s software development team and values to life.',
       video: '/videos/hqzen.mp4',
-      bloglink:'/work/hqzen-case-study',
+      bloglink:'/work/hqzen',
       tags: [
         'UI/UX'
       ]
     },
     {
       id: 5,
-      title: 'AyuAyu',
+      title: 'Reach x GITEX 2025',
       description: 'Short description of the project.',
       video: '/videos/ayuayu.mp4',
-      bloglink:'/work/project-one',
-      tags: [
-        'UI/UX'
-      ]
+      bloglink:'/work/gitex',
+      tags: ['Social Media', 'Motion']
+    },
+    {
+      id: 6,
+      title: 'R08',
+      description: 'Short description of the project.',
+      video: '/videos/ayuayu.mp4',
+      bloglink:'/work/r08',
+      tags: ['Branding', 'Motion']
     },
     // ...
   ];
