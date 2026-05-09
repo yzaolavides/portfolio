@@ -65,11 +65,11 @@
   <!-- Left: Title -->
   <div class="sticky md:w-3/7">
   <div class="flex items-center pb-3">
-  <hr class="w-20 h-0.5 my-4 bg-neutral-300 border-0 rounded-sm md:my-10">
+  <hr class="w-20 h-0.5 my-4 bg-[#FF6D29] border-0 rounded-sm md:my-10">
   <p class="pl-3 text-xl md:text-2xl sm:text-base font-light text-neutral-500">About Me</p>
 </div>
     <span class="pl-3 pb-3 md:pb-4 text-4xl md:text-5xl sm:text-3xl font-medium">Yzabel Olavides</span>
-    <p class="p-3 pr-5 font-light text-base text-neutral-500 md:pt-4 sm:pt-4">I’m a designer with a background in development, creating work that lives at the intersection of corporate, tech, design, and everything in between.
+    <p class="pt-3 pr-8 font-light text-base text-neutral-500 md:pt-4 sm:pt-4 sm:pr-20">I’m a designer with a background in development, creating work that lives at the intersection of corporate, tech, design, and everything in between.
       <br><br>Whether I’m designing interfaces, shaping brand visuals, or animating motion content, I love bringing structure and creativity together to craft meaningful digital experiences.
      <br><br> When I’m not designing, you’ll find me behind my film camera or cheering on football and Formula 1.</p>
   </div>
