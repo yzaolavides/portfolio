@@ -2,7 +2,7 @@
   import CaseStudyHero from '/src/components/casestudy/CaseStudyHero.svelte';
   import CaseStudyMeta from '/src/components/casestudy/CaseStudyMeta.svelte';
   import CaseStudySection from '/src/components/casestudy/CaseStudySection.svelte';
-//   import CaseStudyMedia from '/src/components/casestudy/CaseStudyMedia.svelte';
+  import CaseStudyMedia from '/src/components/casestudy/CaseStudyMedia.svelte';
 
   let themeColor = '#CF3339';
 </script>
@@ -10,6 +10,14 @@
 <title>Yzabel Olavides | Portfolio</title>
 
 <div class="bg-[#1A1A1A] min-h-screen flex flex-col justify-end">
+  <div class="flex-1 flex justify-center items-center px-8 md:px-20 lg:px-40">
+  <img 
+    src="https://res.cloudinary.com/drsiasqzy/image/upload/v1778594650/R08_Negative_aizaez.svg" 
+    alt="R08 Branding"
+    class="w-full max-w-md sm:max-w-sm md:max-w-md lg:max-w-xl object-contain"
+  />
+</div>
+
   <div class="bg-[#faf9f7] pl-5 pr-5 lg:pl-50 lg:pr-50 pt-12 pb-12">
     <CaseStudyHero
       title="R08"
@@ -38,6 +46,7 @@ The brand was originally developed for a high-stakes debut at a tech conference,
   <p class="leading-relaxed font-light">As the in-house designer, I developed R08's brand identity from the ground up, translating the company's name, values, and positioning into a cohesive visual language.
 <br><br>
 The result is a modern, minimalist identity system that works across both digital and print, grounded in Reach Group's color palette while carving out a distinct presence for R08.</p>
+<CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/video/upload/v1778595801/R08_white_lyarkt.mp4" type="video"/>
 </CaseStudySection>
 
 <hr class="w-full h-px mt-8 mb-8 ml-4 mr-4 bg-neutral-200 border-0">

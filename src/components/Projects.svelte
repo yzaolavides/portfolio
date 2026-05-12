@@ -54,8 +54,8 @@
     {
       id: 6,
       title: 'R08',
-      description: 'Short description of the project.',
-      video: '/videos/ayuayu.mp4',
+      description: 'Crafted a brand identity for a tech company built on the idea that every great thing starts from zero.',
+      video: '/videos/R08.mp4',
       bloglink:'/work/r08',
       tags: ['Branding', 'Motion']
     },
