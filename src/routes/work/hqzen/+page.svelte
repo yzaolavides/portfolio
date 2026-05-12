@@ -3,13 +3,24 @@
   import CaseStudyMeta from '/src/components/casestudy/CaseStudyMeta.svelte';
   import CaseStudySection from '/src/components/casestudy/CaseStudySection.svelte';
   import CaseStudyMedia from '/src/components/casestudy/CaseStudyMedia.svelte';
+  import Footer from "/src/components/Footer.svelte";
 
   let themeColor = '#2890FF';
 </script>
 
 <title>Yzabel Olavides | Portfolio</title>
 
-<div class="bg-[{themeColor}] min-h-screen flex flex-col justify-end">
+<div class="bg-[{themeColor}] min-h-screen flex flex-col justify-end overflow-hidden">
+     <!-- Project image -->
+
+  <div class="flex justify-center items-end px-8 md:px-20 lg:px-40">
+    <img 
+      src="https://res.cloudinary.com/drsiasqzy/image/upload/v1778485346/Screen_1_vrfygt.png" 
+      alt="HQZen Culture Page"
+      class="w-full max-w-md sm:max-w-md md:max-w-xl lg:max-w-2xl object-cover object-top shadow-xl"
+    />
+  </div>
+
   <div class="bg-[#faf9f7] pl-5 pr-5 lg:pl-50 lg:pr-50 pt-12 pb-12">
     <CaseStudyHero
       title="HQZen Culture Page"
@@ -33,7 +44,9 @@
 </CaseStudySection>
 
 <CaseStudySection title="Outcome" color={themeColor}>
-  <p class="leading-relaxed font-light">As a web design intern, I took this project from research all the way through to a live, deployed page, handling UX research, UI design, and frontend implementation. The result was a fully built culture page that showcases HQZen's team, work principles, and company environment through a minimal, brand-aligned layout that feels native to their existing product experience.</p>
+
+<p class="leading-relaxed font-light">As a web design intern, I took this project from research all the way through to a live, deployed page, handling UX research, UI design, and frontend implementation. The result was a fully built culture page that showcases HQZen's team, work principles, and company environment through a minimal, brand-aligned layout that feels native to their existing product experience.</p>
+<CaseStudyMedia src="/videos/hqzen.mp4" type="video"/>
 </CaseStudySection>
 <!-- <hr class="h-px bg-neutral-300 border-0 mt-8 mb-8 ml-4 mr-4"> -->
 
@@ -49,17 +62,23 @@
     </blockquote>
 
     <p class="leading-relaxed font-light">From there, my co-intern and I ran a user survey targeting both internal team members and external audiences. With 21 respondents and a tight timeline, the sample was small but actionable, and it surfaced clear patterns in what different audiences expected to find on a culture page.</p>
+    <CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/image/upload/v1778486167/HQZen_5_rwnhkd.png" />
+    <!-- <p class="leading-relaxed font-light">I also ran a competitive analysis, reviewing culture pages from HQZen's competitors in the tech startup space to map out what worked, what didn't, and where there were gaps to differentiate.</p> -->
 </CaseStudySection>
 
 <CaseStudySection title="Define and Design" color={themeColor}>
     <p class="leading-relaxed font-light">Survey responses shaped a user persona and empathy map, which guided both content decisions and layout priorities.</p>
+    <CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/image/upload/v1778487094/HQZen_3_la9nlz.png"/>
+    <br>
+    <CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/image/upload/v1778487093/HQZen_4_f2k5lz.png" />
     <br>
     <p class="leading-relaxed font-light">
         From there, I built out the information architecture, mapped the page sections, and moved quickly from low-fidelity sketches to high-fidelity mockups in Figma, incorporating HQZen's existing design system throughout.
     </p>
+    <CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/image/upload/v1778487894/HQZen_6_xjg1yd.png" />
     <br>
     <p class="leading-relaxed font-light">Responsiveness was factored in from the start, with mockups designed across desktop, tablet, and mobile breakpoints. Designs were then coded and deployed live via GitHub Pages.</p>
-    <CaseStudyMedia src="/images/hqzen/hqzen_responsive.jpg" />
+    <CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/image/upload/v1778482824/HQZen_1_c6ocp1.png" />
 </CaseStudySection>
 
 <CaseStudySection title="Final Design" color={themeColor}>
@@ -67,10 +86,13 @@
         The final design balances storytelling with structure, featuring employee highlights, workspace visuals, and the team's work principles. A minimal layout lets HQZen's brand colors and typography carry the tone, making the page feel like a natural extension of the product.
     </p>
     <br>
+    <CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/image/upload/v1778484596/HQZen_2_fiwdmf.png" />
+    <div class="flex justify-center">
     <a href="https://yzaolavides.github.io/hqzen-culture/" target="_blank">
 	<button class="bg-transparent hover:bg-[#2890FF] text-[#2890FF] font-semibold hover:text-white transition duration-300 ease-in-out py-2 px-4 border border-[#2890FF] hover:border-transparent rounded">
     View Prototype</button>
     </a>
+    </div>
 
 </CaseStudySection>
 
@@ -118,3 +140,5 @@
 
 </div>
 </div>
+
+<Footer />
