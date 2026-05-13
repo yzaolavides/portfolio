@@ -4,6 +4,8 @@
   import CaseStudySection from '/src/components/casestudy/CaseStudySection.svelte';
   import CaseStudyMedia from '/src/components/casestudy/CaseStudyMedia.svelte';
   import Footer from "/src/components/Footer.svelte";
+  import SuggestedProjects from '/src/components/casestudy/Suggested.svelte';
+  import { projects } from '$lib/data/projects.js';
   let themeColor = '#CF3339';
 </script>
 
@@ -123,5 +125,7 @@ While the launch was later shelved by senior management, the guidelines remain a
 
 </div>
 </div>
+
+<SuggestedProjects {projects} current={2} />
 
 <Footer />

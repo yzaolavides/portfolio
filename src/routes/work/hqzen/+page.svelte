@@ -5,6 +5,9 @@
   import CaseStudyMedia from '/src/components/casestudy/CaseStudyMedia.svelte';
   import Footer from "/src/components/Footer.svelte";
 
+  import SuggestedProjects from '/src/components/casestudy/Suggested.svelte';
+  import { projects } from '$lib/data/projects.js';
+
   let themeColor = '#2890FF';
 </script>
 
@@ -140,5 +143,7 @@
 
 </div>
 </div>
+
+<SuggestedProjects {projects} current={4} />
 
 <Footer />
