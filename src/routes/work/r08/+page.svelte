@@ -18,7 +18,7 @@
     alt="R08 Branding"
     class="w-full max-w-md sm:max-w-sm md:max-w-md lg:max-w-xl object-contain"
   />
-</div>
+    </div>
 
   <div class="bg-[#faf9f7] pl-5 pr-5 lg:pl-50 lg:pr-50 pt-12 pb-12">
     <CaseStudyHero

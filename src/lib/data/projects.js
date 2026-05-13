@@ -2,10 +2,10 @@
 export const projects = [
     {
       id: 1,
-      title: 'Video Campaign Content System',
-      description: 'A year-long content system built to keep five subsidiaries consistently visible, across social, and email.',
-      video: '/videos/thumbnails.mp4',
-      bloglink:'/work/rg-reel-campaign',
+      title: 'Seasonal Greetings & Holiday Campaigns',
+      description: 'Designed branded holiday greeting across multiple formats and occasions, produced for a regional corporate audience.',
+      video: '/videos/socialmedia.mp4',
+      bloglink:'/work/rg-socials',
       tags: [
         'Social Media', 'Motion'
       ]
@@ -28,8 +28,17 @@ export const projects = [
         'Reports'
       ]
     },
+
     {
       id: 4,
+      title: 'Reach x GITEX 2025',
+      description: 'Short description of the project.',
+      video: '/videos/ayuayu.mp4',
+      bloglink:'/work/gitex',
+      tags: ['Social Media', 'Motion']
+    },
+    {
+      id: 5,
       title: 'HQZen Culture Page',
       description: 'Researched, designed, and developed a culture page that brings HQZen’s software development team and values to life.',
       video: '/videos/hqzen.mp4',
@@ -37,14 +46,6 @@ export const projects = [
       tags: [
         'UI/UX'
       ]
-    },
-    {
-      id: 5,
-      title: 'Reach x GITEX 2025',
-      description: 'Short description of the project.',
-      video: '/videos/ayuayu.mp4',
-      bloglink:'/work/gitex',
-      tags: ['Social Media', 'Motion']
     },
     {
       id: 6,
