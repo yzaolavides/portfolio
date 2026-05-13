@@ -3,7 +3,7 @@
   import CaseStudyMeta from '/src/components/casestudy/CaseStudyMeta.svelte';
   import CaseStudySection from '/src/components/casestudy/CaseStudySection.svelte';
   import CaseStudyMedia from '/src/components/casestudy/CaseStudyMedia.svelte';
-
+  import Footer from "/src/components/Footer.svelte";
   let themeColor = '#CF3339';
 </script>
 
@@ -43,10 +43,8 @@ The brand was originally developed for a high-stakes debut at a tech conference,
 </CaseStudySection>
 
 <CaseStudySection title="Outcome" color={themeColor}>
-  <p class="leading-relaxed font-light">As the in-house designer, I developed R08's brand identity from the ground up, translating the company's name, values, and positioning into a cohesive visual language.
-<br><br>
-The result is a modern, minimalist identity system that works across both digital and print, grounded in Reach Group's color palette while carving out a distinct presence for R08.</p>
-<CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/video/upload/v1778595801/R08_white_lyarkt.mp4" type="video"/>
+  <p class="leading-relaxed font-light">As the in-house designer, I developed R08's brand identity from the ground up, translating the company's name, values, and positioning into a cohesive visual language. The result is a modern, minimalist identity system that is grounded in Reach Group's color palette while carving out a distinct presence for R08.</p>
+<CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/video/upload/v1778665846/ro8_white_emkzs6.mp4" type="video"/>
 </CaseStudySection>
 
 <hr class="w-full h-px mt-8 mb-8 ml-4 mr-4 bg-neutral-200 border-0">
@@ -54,18 +52,25 @@ The result is a modern, minimalist identity system that works across both digita
 <CaseStudySection title="Key Stages" color={themeColor}>
   <p class="leading-relaxed font-light">With the name's symbolism as a starting point, I explored how R, 0, and 8 could inform the visual direction, whether through typography, form, or subtle graphic elements. Early concepts were developed around the brand requirements: clean, tech-forward, and typographically strong.
 <br><br>
+<CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/image/upload/v1778663495/r08_sketch_eihwye.jpg"/>
 The identity went through three rounds of revisions with executive stakeholders, with each round refining the balance between Reach Group's established palette and R08's own distinct character. Feedback was used to sharpen the concept rather than redefine it.</p>
+<CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/image/upload/v1778663494/ro8_process_01_qlvb0z.png"/>
 </CaseStudySection>
 
 <CaseStudySection title="Final Design" color={themeColor}>
   <p class="leading-relaxed font-light">The final approved identity delivers a modern, minimal brand system with strong typographic presence and purposeful symbolism. 
-<br><br>
+<CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/image/upload/v1778664141/ro8_process_02_evv0wx.png"/>
 Alongside the core logo, the package includes a full set of brand and stationery guidelines covering typography, color usage, spacing, and applications across digital and print formats, giving R08 a consistent foundation to build on.</p>
+<CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/video/upload/v1778664906/ro8_guidelines_yxlde6.mp4" type="video"/>
 </CaseStudySection>
 
 <CaseStudySection title="Impact" color={themeColor}>
   <p class="leading-relaxed font-light">R08's brand identity was delivered complete and conference-ready, a full visual system that clearly communicates the company's positioning as innovative, trustworthy, and built for scale.
-<br><br>
+<CaseStudyMedia
+  layout="masonry"
+  src={['https://res.cloudinary.com/drsiasqzy/image/upload/v1778666161/sign2_zzrtqq.jpg', 'https://res.cloudinary.com/drsiasqzy/image/upload/v1778665364/2_ocofum.jpg', 'https://res.cloudinary.com/drsiasqzy/image/upload/v1778665364/id_2_uudxrc.jpg']}
+  caption="R08 Brand Applications"
+/>
 While the launch was later shelved by senior management, the guidelines remain a solid foundation, giving R08 a brand-consistent visual language ready to deploy whenever the time comes.</p>
 </CaseStudySection>
 
@@ -118,3 +123,5 @@ While the launch was later shelved by senior management, the guidelines remain a
 
 </div>
 </div>
+
+<Footer />

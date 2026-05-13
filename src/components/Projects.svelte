@@ -5,23 +5,21 @@
   const projects = [
     {
       id: 1,
-      title: 'Social Media',
+      title: 'Thumbnails',
       description: 'Short description of the project.',
-      video: '/videos/socialmedia.mp4',
-      bloglink:'/work/project-one',
+      video: '/videos/thumbnails.mp4',
+      bloglink:'/work/rg-reel-campaign',
       tags: [
         'Social Media', 'Motion'
       ]
     },
     {
       id: 2,
-      title: 'Thumbnails',
-      description: 'Short description of the project.',
-      video: '/videos/thumbnails.mp4',
-      bloglink:'/work/project-one',
-      tags: [
-        'Social Media'
-      ]
+      title: 'R08',
+      description: 'Crafted a brand identity for a tech company built on the idea that every great thing starts from zero.',
+      video: '/videos/R08.mp4',
+      bloglink:'/work/r08',
+      tags: ['Branding', 'Motion']
     },
     {
       id: 3,
@@ -53,11 +51,13 @@
     },
     {
       id: 6,
-      title: 'R08',
-      description: 'Crafted a brand identity for a tech company built on the idea that every great thing starts from zero.',
-      video: '/videos/R08.mp4',
-      bloglink:'/work/r08',
-      tags: ['Branding', 'Motion']
+      title: 'Social Media',
+      description: 'Short description of the project.',
+      video: '/videos/socialmedia.mp4',
+      bloglink:'/work/project-one',
+      tags: [
+        'Social Media', 'Motion'
+      ]
     },
     // ...
   ];
