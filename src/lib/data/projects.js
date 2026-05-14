@@ -20,8 +20,8 @@ export const projects = [
     },
     {
       id: 3,
-      title: 'Annual Performance Report',
-      description: 'Short description of the project.',
+      title: 'Newsletter',
+      description: 'Designed and produced the group-wide newsletter featuring company updates, event highlights, and internal achievements.',
       video: '/videos/newsletter.mp4',
       bloglink:'/work/ren-annual-report',
       tags: [
@@ -46,16 +46,5 @@ export const projects = [
       tags: [
         'UI/UX'
       ]
-    },
-    {
-      id: 6,
-      title: 'Social Media',
-      description: 'Short description of the project.',
-      video: '/videos/socialmedia.mp4',
-      bloglink:'/work/project-one',
-      tags: [
-        'Social Media', 'Motion'
-      ]
-    },
-    // ...
+    }
   ];

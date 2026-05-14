@@ -12,7 +12,7 @@
 
 <title>Yzabel Olavides | Portfolio</title>
 
-<div class="bg-[#d3d3d3] min-h-screen flex flex-col justify-end">
+<div class="bg-[#cf3339] min-h-screen flex flex-col justify-end">
     <div class="flex-1 flex justify-center items-center px-8 md:px-20 lg:px-40">
   <img 
     src="https://res.cloudinary.com/drsiasqzy/image/upload/v1778682638/sm_header_fjii9x.png" 
