@@ -32,8 +32,8 @@ export const projects = [
     {
       id: 4,
       title: 'Reach x GITEX 2025',
-      description: 'Short description of the project.',
-      video: '/videos/ayuayu.mp4',
+      description: 'A full suite of event design assets built to carry Reach Group’s presence at GITEX 2025',
+      video: '/videos/gitex.mp4',
       bloglink:'/work/gitex',
       tags: ['Social Media', 'Motion']
     },

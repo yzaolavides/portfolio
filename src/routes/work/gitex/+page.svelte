@@ -2,7 +2,7 @@
   import CaseStudyHero from '/src/components/casestudy/CaseStudyHero.svelte';
   import CaseStudyMeta from '/src/components/casestudy/CaseStudyMeta.svelte';
   import CaseStudySection from '/src/components/casestudy/CaseStudySection.svelte';
-//   import CaseStudyMedia from '/src/components/casestudy/CaseStudyMedia.svelte';
+  import CaseStudyMedia from '/src/components/casestudy/CaseStudyMedia.svelte';
   import SuggestedProjects from '/src/components/casestudy/Suggested.svelte';
   import { projects } from '$lib/data/projects.js';
   import Footer from "/src/components/Footer.svelte";
@@ -13,10 +13,17 @@
 <title>Yzabel Olavides | Portfolio</title>
 
 <div class="bg-[#71CFCC] min-h-screen flex flex-col justify-end">
+  <div class="flex-1 flex justify-center items-center px-8 md:px-20 lg:px-40">
+  <img 
+    src="https://res.cloudinary.com/drsiasqzy/image/upload/v1778771334/gitex_d6zfq6.png" 
+    alt="Quarterly Newsletter"
+    class="w-full max-w-md sm:max-w-sm md:max-w-md lg:max-w-xl object-contain"
+  />
+    </div>
   <div class="bg-[#faf9f7] pl-5 pr-5 lg:pl-50 lg:pr-50 pt-12 pb-12">
     <CaseStudyHero
       title="Reach x GITEX 2025"
-      description="Description"
+      description="A full suite of event design assets built to carry Reach Group’s presence at GITEX 2025"
     />
     <CaseStudyMeta
       client="Reach Group"
@@ -50,6 +57,7 @@
 <p class="leading-relaxed font-light">
     I produced a series of looping motion stories in the lead-up to GITEX, designed to work natively with Instagram's interactive features for added engagement.
 </p>
+<CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/video/upload/v1778771254/stories_xpwprn.mp4" type="video"/>
 
 <br><br>
 <h5 class="mb-2 text-md font-medium tracking-tight">Partner Announcements</h5>
@@ -62,18 +70,20 @@
 <p class="leading-relaxed font-light">
     I designed reel covers, paired with their respective emailers to keep the team and external stakeholders informed and aligned ahead of the event.
 </p>
+<CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/image/upload/v1778772367/emailer_jwwmbb.jpg"/>
 
 <br><br>
 <h5 class="mb-2 text-md font-medium tracking-tight">LED Screen Animations</h5>
 <p class="leading-relaxed font-light">
     I animated announcement visuals for the event's on-site LED screens, built to loop seamlessly in a live conference environment.    
 </p>
-
+<CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/video/upload/v1778771252/led_nfdbdy.mp4" type="video"/>
 <br><br>
 <h5 class="mb-2 text-md font-medium tracking-tight">LinkedIn Employee Template</h5>
 <p class="leading-relaxed font-light">
     I created a customizable LinkedIn template set featuring each Reach Group subsidiary, allowing employees to drop in their photo and post that they were attending GITEX.
 </p>
+<CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/image/upload/v1778772367/linkedin_seggqa.jpg"/>
 </CaseStudySection>
 
 
@@ -81,6 +91,11 @@
   <p class="leading-relaxed font-light">
     Reach Group showed up to GITEX 2025 with a consistent, polished presence across every touchpoint, from the screens inside the venue to the content their employees were posting on LinkedIn. The partner announcement rollout built steady visibility in the weeks leading up to the event, and the employee template gave the brand organic reach without extra effort from the team.
 </p>
+<CaseStudyMedia
+  layout="masonry"
+  src={['https://res.cloudinary.com/drsiasqzy/image/upload/v1778772616/IMG_9721_w9niza.jpg', 'https://res.cloudinary.com/drsiasqzy/image/upload/v1778772943/JCDW0346_txxuxx.jpg', 'https://res.cloudinary.com/drsiasqzy/image/upload/v1778773290/IMG_9796_ump1r2.jpg']}
+  caption="Me, very busy and serious during the event!"
+/>
 </CaseStudySection>
 
 <CaseStudySection title="Learnings" color={themeColor}>
