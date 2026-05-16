@@ -49,7 +49,7 @@
 <CaseStudySection title="Outcome" color={themeColor}>
 
 <p class="leading-relaxed font-light">As a web design intern, I took this project from research all the way through to a live, deployed page, handling UX research, UI design, and frontend implementation. The result was a fully built culture page that showcases HQZen's team, work principles, and company environment through a minimal, brand-aligned layout that feels native to their existing product experience.</p>
-<CaseStudyMedia src="/videos/hqzen.mp4" type="video"/>
+<CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/video/upload/v1778920487/hqzen_jff6v2.mp4" type="video"/>
 </CaseStudySection>
 <!-- <hr class="h-px bg-neutral-300 border-0 mt-8 mb-8 ml-4 mr-4"> -->
 
@@ -91,7 +91,7 @@
     <br>
     <CaseStudyMedia src="https://res.cloudinary.com/drsiasqzy/image/upload/v1778484596/HQZen_2_fiwdmf.png" />
     <div class="flex justify-center">
-    <a href="https://yzaolavides.github.io/hqzen-culture/" target="_blank">
+    <a href="https://yzaolavides.github.io/hqzen-culture/" aria-label="View the HQZen culture page prototype" target="_blank">
 	<button class="bg-transparent hover:bg-[#2890FF] text-[#2890FF] font-semibold hover:text-white transition duration-300 ease-in-out py-2 px-4 border border-[#2890FF] hover:border-transparent rounded">
     View Prototype</button>
     </a>

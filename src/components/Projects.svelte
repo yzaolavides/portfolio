@@ -11,7 +11,7 @@
   <div class="p-7 lg:p-20 grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-y-20 justify-center">
   
   {#each projects as project (project.id)}
-    <a href={project.bloglink} class="flex flex-col gap-3">
+    <a href={project.bloglink} aria-label="Learn more Yzabel's projects" class="flex flex-col gap-3">
         <!-- Thumbnail -->
         <div class="border border-neutral-100 rounded-xl overflow-hidden aspect-video bg-gray-100">
             <video

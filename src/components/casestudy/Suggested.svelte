@@ -10,7 +10,7 @@
 </div>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     {#each suggested as project (project.id)}
-      <a href={project.bloglink} class="flex flex-col gap-3 group">
+      <a href={project.bloglink} aria-label="See more of Yzabel's projects" class="flex flex-col gap-3 group">
         <div class="rounded-xl overflow-hidden aspect-video bg-neutral-100">
           <video
             src={project.video}
